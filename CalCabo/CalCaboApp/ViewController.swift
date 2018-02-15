@@ -387,7 +387,7 @@ class ViewController: UIViewController {
         
         
     }
-    func talkConf(){
+    func talkConf() {
         let rand = Int(arc4random_uniform(6))
         switch rand{
         case 1 :
