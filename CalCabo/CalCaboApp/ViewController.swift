@@ -389,7 +389,7 @@ class ViewController: UIViewController {
     }
     func talkConf() {
         let rand = Int(arc4random_uniform(6))
-        switch rand{
+        switch rand {
         case 1 :
             randTalkLabel.text = "食べなさすぎも良くありません！"
         case 2 :
